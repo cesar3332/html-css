@@ -7,10 +7,13 @@ body{
     margin: 0;
 }
 .menu {
+    border-radius: 30px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
     background-color: #275036;
+    box-shadow: rgba(0, 0, 0, 0.425) 3px 3px 5px;
 }
 
 .menu > a {
@@ -32,4 +35,31 @@ body{
     border-radius: 50%;
     margin: 10px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contato li > a{
+    text-decoration: none;
+    color: black;
+}
+.contato li > a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: wavy underline;
+}
+.contato{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    font: 20px Helvetica;
+    color: #333;
+    margin-top: 10px;
+}
+.contato > li{
+    text-align: center;
+    list-style: none;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+nav{
+    background-color: white;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.425) 3px 3px 5px;
+    border-radius: 10px;
 }
