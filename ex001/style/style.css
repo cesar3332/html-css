@@ -41,7 +41,7 @@ body{
     color: black;
 }
 .contato li > a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(113, 199, 134);
     text-decoration: wavy underline;
 }
 .contato{
@@ -50,6 +50,8 @@ body{
     font: 20px Helvetica;
     color: #333;
     margin-top: 10px;
+    text-align: center;
+    align-items: center;
 }
 .contato > li{
     text-align: center;
@@ -58,8 +60,19 @@ body{
     margin-top: 20px;
 }
 nav{
-    background-color: white;
+    background-color: #c3ffb8;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.425) 3px 3px 5px;
     border-radius: 10px;
+}
+.img-mini{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.custom{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
